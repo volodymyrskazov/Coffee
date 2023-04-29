@@ -1,0 +1,122 @@
+.aboutcoffee {
+    height: 450px;
+    background-image: url(../images/aboutcoffee.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__inner {
+        max-width: 530px;
+        padding: 137px 0 137px 85px;
+
+        &-title {
+            text-align: left;
+            margin-bottom: 24px;
+        }
+
+        &-text {
+            color: #FEFCF7;
+        }
+    }
+}
+
+.aboutcommit {
+    max-width: 1110px;
+    padding-top: 168px;
+    padding-bottom: 168px;
+
+    &__bgimg {
+        background-image: url(../images/aboutvommitment.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 445px;
+        height: 520px;
+    }
+
+    &__description {
+        max-width: 540px;
+    }
+}
+
+.aboutcommit__description h2 {
+    text-align: left;
+    color: #333D4B;
+    margin-bottom: 32px;
+}
+
+.aboutcommit__description p {
+    opacity: 0.8;
+}
+
+.aboutquality {
+    height: 562px;
+    background-image: url(../images/aboutqualityBG.png);
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    padding-left: 85px;
+    padding-right: 85px;
+    position: relative;
+
+
+    &__description {
+        max-width: 539px;
+
+        &-title {
+            margin-bottom: 32px;
+            text-align: left;
+        }
+
+        &-text {
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+
+    &__img {
+        width: 445px;
+        height: 474px;
+        background-image: url(../images/aboutquality.png);
+        // background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -42px;
+    }
+}
+
+
+.aboutheadquarters {
+    padding: 168px 149px 168px 85px;
+
+    &__title {
+        margin-bottom: 72px;
+        color: #83888F;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 95px;
+        max-width: 1045px;
+
+
+        &-country {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 285px;
+            height: 262px;
+        }
+
+    }
+}
+
+.aboutheadquarters__list-country span {
+    display: block;
+}
+
+
+.aboutheadquarters__list img {
+    width: 52px;
+    height: 50px;
+}
